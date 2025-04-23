@@ -1,0 +1,74 @@
+{
+  "nama": "Kawah Putih Ciwidey",
+  "deskripsi": "Kawah Putih adalah danau vulkanik dengan air berwarna putih kehijauan yang terletak di kawasan Ciwidey, Kabupaten Bandung, Jawa Barat. Tempat ini terkenal dengan pemandangan yang indah dan udara yang sejuk, menjadikannya salah satu destinasi wisata alam favorit di Jawa Barat.",
+  "lokasi": {
+    "alamat": "Jl. Raya Soreang Ciwidey KM 25, Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung, Jawa Barat, Indonesia",
+    "latitude": -7.1661,
+    "longitude": 107.4021
+  },
+  "jam_operasional": {
+    "senin": "07:00 - 17:00",
+    "selasa": "07:00 - 17:00",
+    "rabu": "07:00 - 17:00",
+    "kamis": "07:00 - 17:00",
+    "jumat": "07:00 - 17:00",
+    "sabtu": "07:00 - 17:00",
+    "minggu": "07:00 - 17:00"
+  },
+  "harga_tiket": {
+    "wisatawan_domestik": 30000,
+    "wisatawan_mancanegara": 81000,
+    "parkir_mobil": 6000,
+    "parkir_motor": 5000,
+    "angkot_shuttle": 15000
+  },
+  "fasilitas": [
+    {
+      "nama": "Area Parkir Luas",
+      "foto": "src/Project/asset/parkirLuas.jpg"
+    },
+    {
+      "nama": "Toilet Umum",
+      "foto": "src/Project/asset/toiletUmum.jpg"
+    },
+    {
+      "nama": "Warung Makan dan Oleh-Oleh",
+      "foto": "src/Project/asset/warungMakan.jpg"
+    },
+    {
+      "nama": "Mushola",
+      "foto": "src/Project/asset/mushola.jpg"
+    },
+    {
+      "nama": "Shuttle Bus",
+      "foto": "src/Project/asset/shuttleBus.jpg"
+    },
+    {
+      "nama": "Area Berfoto",
+      "foto": "src/Project/asset/areaBerfoto.jpg"
+    },
+    {
+      "nama": "Tempat Duduk dan Gazebo",
+      "foto": "src/Project/asset/gazebo.jpg"
+    }
+  ],
+  "aktivitas": [
+    "Menikmati pemandangan kawah",
+    "Fotografi",
+    "Pre-wedding photoshoot",
+    "Tracking ringan di sekitar kawasan",
+    "Piknik santai"
+  ],
+  "tips_berkunjung": [
+    "Gunakan jaket atau pakaian hangat karena udara cukup dingin.",
+    "Bawa masker jika sensitif terhadap bau belerang.",
+    "Datang lebih pagi untuk menghindari kabut tebal.",
+    "Gunakan shuttle resmi untuk kenyamanan."
+  ],
+  "kontak": {
+    "telepon": "+62 22 85920696",
+    "email": "info@kawahputihciwidey.com",
+    "website": "https://kawahputihciwidey.com",
+    "instagram": "@kawahputihciwidey"
+  }
+}
