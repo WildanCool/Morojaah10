@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 import Slider from "react-slick";
 import aData from "../Project/aData.json";
 import Navbar from "./navbar.jsx";
-import bgImage from "../Project/asset/bgImage.jpg";
-import logoCiwidey from "../Project/asset/logoCiwidey.png";
+// import bgImage from "../Project/asset/bgImage.jpg";
 
 const Home = () => {
   const [data, setData] = useState({ aktivitas: [], foto_keluarga: [] });
@@ -21,7 +20,7 @@ const Home = () => {
       <div
         className="relative h-[90vh] bg-cover bg-center"
         style={{
-          backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(bgImage.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center px-4">
@@ -33,7 +32,7 @@ const Home = () => {
           >
             {/* Logo di kiri */}
             <motion.img
-              src={logoCiwidey}
+              src="logoCiwidey.png"
               alt="Logo Kawah Putih"
               className="w-32 sm:w-40 md:w-52 lg:w-96 object-contain"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -205,9 +204,7 @@ const Home = () => {
             &copy; {new Date().getFullYear()} Kawah Putih Ciwidey. All rights
             reserved.
           </p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-            
-          </div>
+          <div className="flex gap-4 mt-4 md:mt-0"></div>
         </div>
       </footer>
     </div>

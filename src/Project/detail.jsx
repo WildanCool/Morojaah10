@@ -1,8 +1,8 @@
 import React from "react";
 import data from "../Project/aData.json";
 import Navbar from "./navbar";
-import bgImage from "../Project/asset/bgImage.jpg";
-import logoCiwidey from "../Project/asset/logoCiwidey.png";
+// import bgImage from "../Project/asset/bgImage.jpg";
+// import logoCiwidey from "../Project/asset/logoCiwidey.png";
 import { MapPin, Clock } from "lucide-react";
 
 const Detail = () => {
@@ -17,13 +17,13 @@ const Detail = () => {
       <div
         className="relative h-[70vh] bg-cover bg-center"
         style={{
-          backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(bgImage.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center px-4">
           <div className="flex flex-col md:flex-row items-center text-white max-w-4xl w-full gap-8">
             <img
-              src={logoCiwidey}
+              src="logoCiwidey.png"
               alt="Logo Kawah Putih"
               className="w-28 sm:w-36 md:w-44 lg:w-72 object-contain"
             />

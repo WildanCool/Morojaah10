@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logoCiwidey from "../Project/asset/logoCiwidey.png";
+// import logoCiwidey from "../Project/asset/logoCiwidey.png";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
           <img
-            src={logoCiwidey}
+            src="logoCiwidey.png"
             alt="Logo Kawah Putih"
             className="w-14 sm:w-16"
           />

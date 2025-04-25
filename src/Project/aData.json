@@ -25,31 +25,31 @@
   "fasilitas": [
     {
       "nama": "Area Parkir Luas",
-      "foto": "src/Project/asset/parkirLuas.jpg"
+      "foto": "parkirLuas.jpg"
     },
     {
       "nama": "Toilet Umum",
-      "foto": "src/Project/asset/toiletUmum.jpg"
+      "foto": "toiletUmum.jpg"
     },
     {
       "nama": "Warung Makan dan Oleh-Oleh",
-      "foto": "src/Project/asset/warungMakan.jpg"
+      "foto": "warungMakan.jpg"
     },
     {
       "nama": "Mushola",
-      "foto": "src/Project/asset/mushola.jpg"
+      "foto": "mushola.jpg"
     },
     {
       "nama": "Shuttle Bus",
-      "foto": "src/Project/asset/shuttleBus.jpg"
+      "foto": "shuttleBus.jpg"
     },
     {
       "nama": "Area Berfoto",
-      "foto": "src/Project/asset/areaBerfoto.jpg"
+      "foto": "areaBerfoto.jpg"
     },
     {
       "nama": "Tempat Duduk dan Gazebo",
-      "foto": "src/Project/asset/gazebo.jpg"
+      "foto": "gazebo.jpg"
     }
   ],
   "aktivitas": [

@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-import bgImage from "../Project/asset/bgImage.jpg";
+// import bgImage from "../Project/asset/bgImage.jpg";
 
 const Kontak = () => {
   return (
@@ -9,7 +9,7 @@ const Kontak = () => {
       {/* Hero Section */}
       <div
         className="relative h-[70vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{ backgroundImage: `url(bgImage.jpg)` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center px-8 md:px-20">
           <div className="max-w-4xl">
@@ -17,7 +17,8 @@ const Kontak = () => {
               Kontak
             </h1>
             <p className="text-white text-xl md:text-2xl text-left">
-              Kami siap membantu Anda. Jangan ragu untuk menghubungi kami untuk pertanyaan, masukan, atau kerjasama.
+              Kami siap membantu Anda. Jangan ragu untuk menghubungi kami untuk
+              pertanyaan, masukan, atau kerjasama.
             </p>
           </div>
         </div>
@@ -54,7 +55,9 @@ const Kontak = () => {
               ></textarea>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-2">Kesan dan Saran</label>
+              <label className="block text-sm font-medium mb-2">
+                Kesan dan Saran
+              </label>
               <textarea
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl h-32 resize-none focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 placeholder="Bagikan kesan dan saran Anda"
@@ -75,10 +78,11 @@ const Kontak = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8 mt-12">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-          <p className="text-sm">&copy; {new Date().getFullYear()} Kawah Putih Ciwidey. All rights reserved.</p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-            
-          </div>
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} Kawah Putih Ciwidey. All rights
+            reserved.
+          </p>
+          <div className="flex gap-4 mt-4 md:mt-0"></div>
         </div>
       </footer>
     </div>
