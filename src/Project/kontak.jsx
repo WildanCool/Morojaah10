@@ -1,9 +1,9 @@
 import Navbar from "./navbar";
-// import bgImage from "../Project/asset/bgImage.jpg";
+import { MapPin } from "lucide-react"; // pastikan lucide-react sudah terinstall
+import data from "../Project/aData.json"; // sesuaikan path jika perlu
 
 const Kontak = () => {
-  const { nama, deskripsi, lokasi, jam_operasional, harga_tiket, fasilitas } =
-    data;
+  const { lokasi } = data; // Ambil hanya yang dibutuhkan, atau bisa juga semua
 
   return (
     <div className="font-sans text-gray-800">
@@ -12,7 +12,7 @@ const Kontak = () => {
       {/* Hero Section */}
       <div
         className="relative h-[70vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(bgImage.jpg)` }}
+        style={{ backgroundImage: `url(bgImage.jpg)` }} // Pastikan gambar ada di folder publik atau ganti dengan import
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center px-8 md:px-20">
           <div className="max-w-4xl">
@@ -28,7 +28,7 @@ const Kontak = () => {
       </div>
 
       {/* Lokasi */}
-      <section className="p-6 space-y-2 mx-4">
+      <section className="p-6 space-y-2 mx-4 mt-5">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
           <MapPin size={20} className="text-gray-500" /> Lokasi
         </h2>
