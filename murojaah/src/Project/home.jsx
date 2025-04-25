@@ -206,15 +206,7 @@ const Home = () => {
             reserved.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition">
-              Beranda
-            </a>
-            <a href="#" className="hover:text-white transition">
-              Tentang
-            </a>
-            <a href="#" className="hover:text-white transition">
-              Kontak
-            </a>
+            
           </div>
         </div>
       </footer>
