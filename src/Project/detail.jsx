@@ -60,21 +60,6 @@ const Detail = () => {
         </p>
       </section>
 
-      {/* Jam Operasional */}
-      <section className="p-6 mx-4 mb-8">
-        <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-          <Clock size={20} className="text-gray-500" /> Jam Operasional
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-2 gap-x-8 text-gray-700">
-          {Object.entries(jam_operasional).map(([hari, jam]) => (
-            <div key={hari} className="flex justify-between">
-              <span className="capitalize">{hari}</span>
-              <span>{jam}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Harga Tiket */}
       <section className="w-full px-4 sm:px-6 lg:px-8 flex justify-center h-[400px] mb-8">
         <div className="bg-[#20bcb2] p-8 shadow-md relative w-full max-w-4xl rounded-xl">

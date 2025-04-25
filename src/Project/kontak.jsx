@@ -24,6 +24,21 @@ const Kontak = () => {
         </div>
       </div>
 
+      {/* Jam Operasional */}
+      <section className="p-6 mx-4 mb-8">
+        <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
+          <Clock size={20} className="text-gray-500" /> Jam Operasional
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-2 gap-x-8 text-gray-700">
+          {Object.entries(jam_operasional).map(([hari, jam]) => (
+            <div key={hari} className="flex justify-between">
+              <span className="capitalize">{hari}</span>
+              <span>{jam}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Form Section */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="bg-white shadow-2xl rounded-3xl p-10 space-y-8">
