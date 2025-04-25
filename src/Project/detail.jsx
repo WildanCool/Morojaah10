@@ -49,15 +49,19 @@ const Detail = () => {
         </p>
       </section>
 
-      {/* Lokasi */}
-      <section className="p-6 space-y-2 mx-4">
+      {/* Jam Operasional */}
+      <section className="p-6 mx-4 mb-8">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-          <MapPin size={20} className="text-gray-500" /> Lokasi
+          <Clock size={20} className="text-gray-500" /> Jam Operasional
         </h2>
-        <p>{lokasi.alamat}</p>
-        <p className="text-sm text-gray-500">
-          Lat: {lokasi.latitude}, Long: {lokasi.longitude}
-        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-2 gap-x-8 text-gray-700">
+          {Object.entries(jam_operasional).map(([hari, jam]) => (
+            <div key={hari} className="flex justify-between">
+              <span className="capitalize">{hari}</span>
+              <span>{jam}</span>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Harga Tiket */}
@@ -137,11 +141,10 @@ const Detail = () => {
       <footer className="bg-gray-900 text-gray-300 py-8">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Kawah Putih Ciwidey. All rights reserved.
+            &copy; {new Date().getFullYear()} Kawah Putih Ciwidey. All rights
+            reserved.
           </p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-           
-          </div>
+          <div className="flex gap-4 mt-4 md:mt-0"></div>
         </div>
       </footer>
     </div>

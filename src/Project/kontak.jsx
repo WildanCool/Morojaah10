@@ -2,6 +2,9 @@ import Navbar from "./navbar";
 // import bgImage from "../Project/asset/bgImage.jpg";
 
 const Kontak = () => {
+  const { nama, deskripsi, lokasi, jam_operasional, harga_tiket, fasilitas } =
+    data;
+
   return (
     <div className="font-sans text-gray-800">
       <Navbar />
@@ -24,19 +27,15 @@ const Kontak = () => {
         </div>
       </div>
 
-      {/* Jam Operasional */}
-      <section className="p-6 mx-4 mb-8">
+      {/* Lokasi */}
+      <section className="p-6 space-y-2 mx-4">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
-          <Clock size={20} className="text-gray-500" /> Jam Operasional
+          <MapPin size={20} className="text-gray-500" /> Lokasi
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-2 gap-x-8 text-gray-700">
-          {Object.entries(jam_operasional).map(([hari, jam]) => (
-            <div key={hari} className="flex justify-between">
-              <span className="capitalize">{hari}</span>
-              <span>{jam}</span>
-            </div>
-          ))}
-        </div>
+        <p>{lokasi.alamat}</p>
+        <p className="text-sm text-gray-500">
+          Lat: {lokasi.latitude}, Long: {lokasi.longitude}
+        </p>
       </section>
 
       {/* Form Section */}
